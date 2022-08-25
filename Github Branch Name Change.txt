@@ -1,0 +1,4 @@
+git branch -m master Trevor-Personal-Master
+git fetch origin
+git branch -u origin/Trevor-Personal-Master Trevor-Personal-Master
+git remote set-head origin -a
