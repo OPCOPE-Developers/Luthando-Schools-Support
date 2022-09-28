@@ -9,6 +9,7 @@ import { RegisterUserComponent } from './register-user/register-user.component';
 import { ViewProfileComponent } from './view-profile/view-profile.component';
 
 const routes: Routes =[
+  {path:'', redirectTo: '/home', pathMatch: 'full'},
   {path:'home', component: HomePageComponent, pathMatch :'full'},
   {path:'provide-support', component: ProvideSupportComponent, pathMatch :'full'},
   {path:'register-organisation', component: RegisterOrganisationComponent, pathMatch :'full'},
