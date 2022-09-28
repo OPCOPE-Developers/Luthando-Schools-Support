@@ -10,6 +10,7 @@ import { RegisterSchoolComponent } from './register-school/register-school.compo
 import { RegisterUserComponent } from './register-user/register-user.component';
 import { ViewProfileComponent } from './view-profile/view-profile.component';
 import { RouterModule } from '@angular/router';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -20,10 +21,10 @@ import { RouterModule } from '@angular/router';
     RegisterOrganisationComponent,
     RegisterSchoolComponent,
     RegisterUserComponent,
-    ViewProfileComponent
+    ViewProfileComponent,
   ],
   imports: [ RouterModule, 
-    BrowserModule
+    BrowserModule, AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
