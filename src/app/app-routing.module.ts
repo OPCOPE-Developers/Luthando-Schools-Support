@@ -17,7 +17,7 @@ const routes: Routes =[
   {path:'register-school', component: RegisterSchoolComponent, pathMatch :'full'},
   {path:'register-user', component: RegisterUserComponent, pathMatch :'full'},
   {path:'view-profile', component: ViewProfileComponent, pathMatch :'full'},
-  {path:'make-post', component:MakePostComponent, pathMatch:'full'}
+  {path:'make-post', component: MakePostComponent, pathMatch:'full'}
 ];
 
 @NgModule({
