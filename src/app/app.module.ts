@@ -11,6 +11,7 @@ import { RegisterUserComponent } from './register-user/register-user.component';
 import { ViewProfileComponent } from './view-profile/view-profile.component';
 import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { AppRoutingModule } from './app-routing.module';
     RegisterSchoolComponent,
     RegisterUserComponent,
     ViewProfileComponent,
+    NavBarComponent,
   ],
   imports: [ RouterModule, 
     BrowserModule, AppRoutingModule

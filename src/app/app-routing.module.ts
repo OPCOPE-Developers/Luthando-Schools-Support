@@ -7,6 +7,7 @@ import { RegisterOrganisationComponent } from './register-organisation/register-
 import { RegisterSchoolComponent } from './register-school/register-school.component';
 import { RegisterUserComponent } from './register-user/register-user.component';
 import { ViewProfileComponent } from './view-profile/view-profile.component';
+import { MakePostComponent } from './make-post/make-post.component';
 
 const routes: Routes =[
   {path:'', redirectTo: '/home', pathMatch: 'full'},
@@ -15,7 +16,8 @@ const routes: Routes =[
   {path:'register-organisation', component: RegisterOrganisationComponent, pathMatch :'full'},
   {path:'register-school', component: RegisterSchoolComponent, pathMatch :'full'},
   {path:'register-user', component: RegisterUserComponent, pathMatch :'full'},
-  {path:'view-profile', component: ViewProfileComponent, pathMatch :'full'}
+  {path:'view-profile', component: ViewProfileComponent, pathMatch :'full'},
+  {path:'make-post', component:MakePostComponent, pathMatch:'full'}
 ];
 
 @NgModule({
