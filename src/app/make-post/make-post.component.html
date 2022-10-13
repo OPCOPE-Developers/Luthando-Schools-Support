@@ -1,1 +1,74 @@
-<p>make-post works!</p>
+<div class="container">
+  <div style="text-align:center">
+    <h2>Make a post</h2>
+    <h3><div class="container">
+      <div class="btn-holder">
+        <button type="button">Languege</button>
+        <button type="button">Click</button>
+      </div>
+      <div class="column">
+        <img src="cput-late-applications.jpg" alter ="cput-late-applications">
+      </div>
+    </div></h3>
+
+  </div>
+  <div class="row">
+    
+    <div class="column">
+      <div></div>
+      <form action="/action_page.php">
+        <label for="fname">Title Need</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your Title Need..">
+        <label for="lang">Type of Need</label>
+        <select name="Type of Need" id="lang">
+          <option value="javascript">JavaScript</option>
+          <option value="php">PHP</option>
+          <option value="java">Java</option>
+          <option value="golang">Golang</option>
+          <option value="python">Python</option>
+          <option value="c#">C#</option>
+          <option value="C++">C++</option>
+          <option value="erlang">Erlang</option>
+        </select>
+        <input type="submit" value="Submit" />
+      <label for="name">TimeLine </label>
+      <div class = "column">
+        <input type="checkbox" id="continous" name="TimeLine" value="continous" />
+        <label for="coding">continous</label>
+      </div>
+      <div>
+        <input type="checkbox" id="DeadLine" name="TimeLine" value="DeadLine" />
+        <label for="music">DeadLine</label>
+      </div>
+      <div>
+        <label for="Begins">Begins:</label>
+        <input type="date" id="Begins" name="Begins">
+        <label for="Deadline">Deadline:</label>
+        <input type="date" id="Deadline" name="Deadline">
+      </div>
+      <div>
+        <label for="fname">Contact Person</label>
+        <input type="text" id="fname" name="Contact Person" placeholder="Your Contact Person ....">
+      </div>
+      <div>
+        <label for="email">Enter your email:</label>
+      <input type="email" id="email" name="email">
+      </div>
+      <div>
+        <label for="fname">Contact Person</label>
+        <input type="text" id="fname" name="" placeholder="Your Contact Person ....">
+        <label for="phone">Enter your phone number:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+      </div>
+
+
+
+
+
+        <label for="Description of the need">Subject</label>
+        <textarea id="Description of the need" name="Description of the need" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="post" value="post">
+      </form>
+    </div>
+  </div>
+</div>
